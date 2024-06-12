@@ -1,7 +1,7 @@
 firefox # Web Browser
 alacritty # Terminal
 discord # Messaging
-steam # Games
+team # Games
 
 i3 # WM
 rofi # Search
