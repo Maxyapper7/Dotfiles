@@ -1,0 +1,19 @@
+firefox # Web Browser
+alacritty # Terminal
+discord # Messaging
+steam # Games
+
+i3 # WM
+rofi # Search
+polybar # Bar
+dunst # Notifications
+
+feh # Wallpaper
+brightnessctl # Brightness Control
+playerctl # Play Controls
+stow # Hyprlink thing
+git # Version Control
+bottom # Resource Monitoring
+intel-media-driver # GPU Driver
+neofetch # Flex
+bluetoothctl # Bluetooth
