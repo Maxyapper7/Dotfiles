@@ -1,13 +1,12 @@
 firefox # Web Browser
 alacritty # Terminal
 discord # Messaging
-team # Games
-
+steam # Games
 i3 # WM
 rofi # Search
 polybar # Bar
 dunst # Notifications
-
+flameshot # Screen Shots
 feh # Wallpaper
 brightnessctl # Brightness Control
 playerctl # Play Controls
