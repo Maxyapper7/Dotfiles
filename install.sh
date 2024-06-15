@@ -1,13 +1,13 @@
 #!/bin/bash
 
-# Install Paru
+# Install paru
 yes | sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
-# Install AUR packages
-paru -S -< aur-pkg.txt
+# Install rate-mirrors
+paru -S --noconfirm rate-mirrors
 
 # Find best mirrors
 rate-mirrors --allow-root --protocol https arch | grep -v '^#' | sudo tee /etc/pacman.d/mirrorlist
@@ -17,5 +17,8 @@ rate-mirrors --allow-root --protocol https arch | grep -v '^#' | sudo tee /etc/p
 # Install normal Packages
 sudo pacman -S -< pacman-pkg.txt
 
+# Install AUR packages
+paru -S --noconfirm -< aur-pkg.txt
+
 # Hyprlink dotfiles Using Stow
-stow -p ~ 
+stow alacritty flameshot picom tmux bottom polybar wallpapers dunst nvim rofi zsh dunst scripts i3 xresources

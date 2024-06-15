@@ -1,4 +1,4 @@
 spotify # Music
 auto-cpufreq # Preformence
 ttf-font-awesome-5 # Font
-rate-mirrors-bin # Fastest Mirrors
+
