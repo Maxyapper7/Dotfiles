@@ -1,1 +1,0 @@
-xdg-settings check default-web-browser firefox.desktop # Twingate Fix

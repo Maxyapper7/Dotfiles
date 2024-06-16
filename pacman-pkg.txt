@@ -16,3 +16,4 @@ bottom # Resource Monitoring
 intel-media-driver # GPU Driver
 neofetch # Flex
 bluetoothctl # Bluetooth
+curl # Helpful Tool
