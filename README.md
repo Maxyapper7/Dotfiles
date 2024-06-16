@@ -2,4 +2,8 @@
 
 These are my (somewhat broken) dotfiles for the i3 WM. They are made for a laptop so some of the config may be a bit weird for anyone on a desktop. 
 
-I'm also trying to figure out how to use git sooooo, hopefully this works
+## Install
+
+To install them just clone the git repository, you can rename the folder if you want to. Then run the `install.sh` file.
+
+
