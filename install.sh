@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Install paru
-yes | sudo pacman -S --needed base-devel
+sudo pacman -S --noconfirm --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
-yes | makepkg -si
+makepkg -si --noconfirm
 
 rm -rf paru
 
