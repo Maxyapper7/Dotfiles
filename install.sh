@@ -27,6 +27,9 @@ paru -S --noconfirm -< aur-pkg.txt
 # Install Twingate
 curl -s https://binaries.twingate.com/client/linux/install.sh | sudo bash
 
+# Install OMZSH
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Hyprlink dotfiles Using Stow
 stow alacritty flameshot picom tmux bottom polybar wallpapers dunst nvim rofi zsh dunst scripts i3 xresources
 
