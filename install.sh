@@ -36,5 +36,8 @@ stow alacritty flameshot picom tmux bottom polybar wallpapers dunst nvim rofi zs
 # Hyprlink Cursor Theme
 stow -t /usr/share/icons/default cursor
 
+# Start SDDM on startup
+sudo systemctl enable sddm
+
 # Set firefox as deafault browser
 xdg-settings check default-web-browser firefox.desktop
