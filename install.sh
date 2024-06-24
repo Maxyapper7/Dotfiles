@@ -19,7 +19,7 @@ echo "[options]" | sudo tee -a /etc/pacman.conf
 echo "ParallelDownloads = 5" | sudo tee -a /etc/pacman.conf
 
 # Install normal Packages
-sudo pacman -S -< pacman-pkg.txt
+sudo pacman -S --noconfirm -< pacman-pkg.txt
 
 # Install AUR packages
 paru -S --noconfirm -< aur-pkg.txt
