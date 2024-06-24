@@ -3,6 +3,7 @@ alacritty # Terminal
 discord # Messaging
 steam # Games
 i3 # WM
+lightdm # Login
 rofi # Search
 polybar # Bar
 dunst # Notifications
