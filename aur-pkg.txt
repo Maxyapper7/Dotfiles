@@ -1,4 +1,5 @@
-spotify # Music
-auto-cpufreq # Preformence
-ttf-font-awesome-5 # Font
-
+spotify
+auto-cpufreq
+ttf-meslo-nerd
+sddm-git
+catppuccin-cursors-macchiato

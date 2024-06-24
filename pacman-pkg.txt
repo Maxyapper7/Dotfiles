@@ -1,20 +1,26 @@
-firefox # Web Browser
-alacritty # Terminal
-discord # Messaging
-steam # Games
-i3 # WM
-lightdm # Login
-rofi # Search
-polybar # Bar
-dunst # Notifications
-flameshot # Screen Shots
-feh # Wallpaper
-brightnessctl # Brightness Control
-playerctl # Play Controls
-stow # Hyprlink thing
-git # Version Control
-bottom # Resource Monitoring
-intel-media-driver # GPU Driver
-neofetch # Flex
-bluetoothctl # Bluetooth
-curl # Helpful Tool
+firefox
+alacritty
+discord
+steam
+i3
+rofi
+polybar
+dunst
+flameshot
+feh
+brightnessctl
+playerctl
+stow
+git
+bottom
+intel-media-driver
+neofetch
+bluetoothctl
+curl
+openssh
+qt6-svg
+qt6-declarative
+unzip
+zoxide
+tldr
+zsh
