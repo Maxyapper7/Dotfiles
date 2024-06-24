@@ -30,5 +30,8 @@ curl -s https://binaries.twingate.com/client/linux/install.sh | sudo bash
 # Hyprlink dotfiles Using Stow
 stow alacritty flameshot picom tmux bottom polybar wallpapers dunst nvim rofi zsh dunst scripts i3 xresources
 
+# Hyprlink Cursor Theme
+stow -t /usr/share/icons/default cursor
+
 # Set firefox as deafault browser
 xdg-settings check default-web-browser firefox.desktop
