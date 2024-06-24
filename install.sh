@@ -4,7 +4,9 @@
 yes | sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
-makepkg -si
+yes | makepkg -si
+
+rm -rf paru
 
 # Install rate-mirrors
 paru -S --noconfirm rate-mirrors
@@ -13,6 +15,8 @@ paru -S --noconfirm rate-mirrors
 rate-mirrors --allow-root --protocol https arch | grep -v '^#' | sudo tee /etc/pacman.d/mirrorlist
 
 # Enable Parallel Downloads
+echo "[options]" | sudo tee -a /etc/pacman.conf
+echo "ParallelDownloads = 5" | sudo tee -a /etc/pacman.conf
 
 # Install normal Packages
 sudo pacman -S -< pacman-pkg.txt
