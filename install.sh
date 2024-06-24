@@ -27,17 +27,18 @@ paru -S --noconfirm -< aur-pkg.txt
 # Install Twingate
 curl -s https://binaries.twingate.com/client/linux/install.sh | sudo bash
 
-# Install OMZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
 # Hyprlink dotfiles Using Stow
 stow alacritty flameshot picom tmux bottom polybar wallpapers dunst nvim rofi zsh dunst scripts i3 xresources
 
 # Hyprlink Cursor Theme
-stow -t /usr/share/icons/default cursor
+sudo rm -rf /usr/share/icons/default/index.theme
+sudo stow -t /usr/share/icons/default cursor
 
 # Start SDDM on startup
 sudo systemctl enable sddm
 
 # Set firefox as deafault browser
 xdg-settings check default-web-browser firefox.desktop
+
+# Install OMZSH
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
