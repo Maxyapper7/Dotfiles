@@ -15,7 +15,6 @@ git
 bottom
 intel-media-driver
 neofetch
-bluetoothctl
 curl
 openssh
 qt6-svg
