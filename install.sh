@@ -37,6 +37,12 @@ sudo stow -t /usr/share/icons/default cursor
 # Start SDDM on startup
 sudo systemctl enable sddm
 
+# Start Libvirtd Service
+sudo systemctl enable libvirtd.service
+
+# Add to Libvirt group
+sudo usermod -a -G libvirt $(whoami)
+
 # Set firefox as deafault browser
 xdg-settings check default-web-browser firefox.desktop
 

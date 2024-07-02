@@ -23,3 +23,12 @@ unzip
 zoxide
 tldr
 zsh
+virt-manager
+virt-viewer
+dnsmasq
+vde2
+bridge-utils
+openbsd-netcat
+dmidecode
+iptables
+libguestfs
