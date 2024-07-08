@@ -1,15 +1,21 @@
-(defpoll time :interval "5s"
-  `date +'{"hour":"%H","min":"%M"}'`)
+(defwidget bar_layout []
+  (label :text "Hello, World"))
 
-(defwidget powermenu_layout []
-  (label :text "${time.hour}:${time.min}:${time.sec}"))
 
-(defwindow powermenu
-  :monitor 0 ;; Optional for X11
-  :stacking "fg"
-  :windowtype "normal"
-  :wm-ignore true
+(defwindow bar
+  :stacking "bg"
+  :windowtype "dock"
+  :wm-ignore "true"
+  :hexpand "false"
+	:vexpand "false"
+  :focusable "true"
   :geometry (geometry
-              :width "50%"
-              :height "100%")
-  (powermenu_layout))
+    :x "0"
+    :y "0"
+    :width "50px"
+    :height "100%")
+  :reserve (struts 
+    :distance "60px" 
+    :side "left")
+  (bar_layout))
+
