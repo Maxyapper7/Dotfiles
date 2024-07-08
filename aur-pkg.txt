@@ -1,4 +1,6 @@
 auto-cpufreq
 ttf-meslo-nerd
 sddm-git
-catppuccin-cursors-macchiato
+i3lock-fancy
+i3lock-color-git
+plymouth-theme-owl-git

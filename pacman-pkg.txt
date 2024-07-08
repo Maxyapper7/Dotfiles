@@ -32,3 +32,4 @@ openbsd-netcat
 dmidecode
 iptables
 libguestfs
+plymouth

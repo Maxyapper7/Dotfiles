@@ -1,1 +1,1 @@
-i3lock -i ~/.config/wallpapers/wallpaper-blurred.png
+i3lock-fancy
