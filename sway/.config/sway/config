@@ -10,9 +10,9 @@ bindsym $mod+space exec rofi -show run
 bindsym $mod+Shift+p exec env XDG_SESSION_TYPE=X11 /opt/piavpn/bin/pia-client
 
 # Media Controls
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
-bindsym XF86AudioPlay exec playerctl play-pause
+bindsym --locked XF86AudioNext exec playerctl next
+bindsym --locked XF86AudioPrev exec playerctl previous
+bindsym --locked XF86AudioPlay exec playerctl play-pause
 
 # Brightness Keys
 bindsym XF86MonBrightnessUp exec brightnessctl set 10%+
@@ -101,7 +101,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+bindsym $mod+Shift+r swaymsg reload
 # exit i3 (logs you out of your X session)
 bindsym $mod+m exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
@@ -132,6 +132,16 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 exec --no-startip-id caffine
+
+### Random ###
+input type:touchpad {
+    tap enabled
+    natural_scroll enabled
+}
+
+output eDP-1 scale 1.5
+
+
 ### Looks ###
 
 # Boarders
