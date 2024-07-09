@@ -45,6 +45,3 @@ sudo usermod -a -G libvirt $(whoami)
 
 # Set firefox as deafault browser
 xdg-settings check default-web-browser firefox.desktop
-
-# Install OMZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
