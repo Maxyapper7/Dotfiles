@@ -6,7 +6,7 @@ floating_modifier $mod
 # Programs
 bindsym $mod+Return exec alacritty
 bindsym $mod+b exec firefox
-bindsym $mod+space exec rofi -show run 
+#bindsym $mod+space exec rofi -show run 
 bindsym $mod+Shift+p exec env XDG_SESSION_TYPE=X11 /opt/piavpn/bin/pia-client
 
 # Media Controls
@@ -131,7 +131,9 @@ exec dunst
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
-exec --no-startip-id caffine
+exec --no-startup-id caffine
+exec --no-startup-id ulauncher
+
 ### Looks ###
 
 # Boarders

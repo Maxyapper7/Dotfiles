@@ -1,3 +1,4 @@
 auto-cpufreq
 ttf-meslo-nerd
 sddm-git
+ulauncher

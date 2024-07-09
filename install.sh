@@ -28,7 +28,7 @@ paru -S --noconfirm -< aur-pkg.txt
 curl -s https://binaries.twingate.com/client/linux/install.sh | sudo bash
 
 # Hyprlink dotfiles Using Stow
-stow alacritty flameshot picom tmux bottom polybar wallpapers dunst nvim rofi zsh dunst scripts i3 xresources
+stow alacritty flameshot picom tmux ulauncher bottom polybar wallpapers dunst nvim zsh dunst scripts i3 xresources
 
 # Hyprlink Cursor Theme
 sudo rm -rf /usr/share/icons/default/index.theme
