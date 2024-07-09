@@ -1,1 +1,16 @@
-{}
+{
+    "com.github.beobcode.ulauncher-session-actions": {
+        "id": "com.github.beobcode.ulauncher-session-actions",
+        "url": "https://github.com/beobcode/ulauncher-session-actions",
+        "updated_at": "2024-07-09T10:28:16.503396",
+        "last_commit": "78b90d855d41f769a149caf90b5b9811e45fc918",
+        "last_commit_time": "2024-07-08T12:42:04"
+    },
+    "com.github.eckhoff42.ulauncher-bluetooth-quick-connect": {
+        "id": "com.github.eckhoff42.ulauncher-bluetooth-quick-connect",
+        "url": "https://github.com/Eckhoff42/Ulauncher-Bluetooth-quick-connect",
+        "updated_at": "2024-07-09T10:28:29.672515",
+        "last_commit": "2cb1d85cdfa870888e3eeda733b63467b0966ad1",
+        "last_commit_time": "2022-05-10T15:18:43"
+    }
+}

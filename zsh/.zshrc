@@ -89,6 +89,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias i3config="nvim ~/dotfiles/i3/.config/i3/config"
 alias cd='z'
+alias cat='bat'
 
 export PATH=$PATH:/home/max/.spicetify
 eval "$(zoxide init zsh)"

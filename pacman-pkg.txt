@@ -28,4 +28,4 @@ openbsd-netcat
 dmidecode
 iptables
 libguestfs
-
+bat
