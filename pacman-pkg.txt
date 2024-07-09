@@ -2,12 +2,8 @@ firefox
 alacritty
 discord
 steam
-i3
-rofi
-polybar
 dunst
 flameshot
-feh
 brightnessctl
 playerctl
 stow

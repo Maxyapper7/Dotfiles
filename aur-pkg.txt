@@ -1,5 +1,3 @@
 auto-cpufreq
 ttf-meslo-nerd
 sddm-git
-i3lock-fancy
-i3lock-color-git

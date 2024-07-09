@@ -1,0 +1,6 @@
+i3
+feh
+i3lock
+i3lock-color-git
+i3lock-fancy
+polybar
