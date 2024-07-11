@@ -6,8 +6,6 @@ floating_modifier $mod
 # Programs
 bindsym $mod+Return exec alacritty
 bindsym $mod+b exec firefox
-#bindsym $mod+space exec rofi -show run 
-bindsym $mod+Shift+p exec env XDG_SESSION_TYPE=X11 /opt/piavpn/bin/pia-client
 
 # Media Controls
 bindsym XF86AudioNext exec playerctl next
@@ -110,7 +108,7 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id picom
 exec --no-startup-id killall polybar
 exec --no-startup-id ~/.config/polybar/launch_polybar.sh
-exec xautolock -detectsleep -time 3 -locker \"~/.config/scripts/lock.sh\"
+exec xautolock -detectsleep -time 1 -locker \"~/.config/scripts/lock.sh\"
 exec feh --bg-fill ~/.config/wallpapers/wallpaper.jpg
 exec dunst
 exec --no-startup-id dex --autostart --environment i3

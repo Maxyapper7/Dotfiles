@@ -9,7 +9,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "taplo", "markdown-oxide" },
+				ensure_installed = { "lua_ls", "taplo", "markdown_oxide" },
 			})
 		end,
 	},
@@ -25,7 +25,7 @@ return {
 			lspconfig.taplo.setup({
 				capabilities = capabilities,
 			})
-      lspconfig.markdown-oxide.setup({
+      lspconfig.markdown_oxide.setup({
         capabilities = capabilities
       })
 
