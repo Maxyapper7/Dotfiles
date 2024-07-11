@@ -9,7 +9,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "taplo" },
+				ensure_installed = { "lua_ls", "taplo", "markdown-oxide" },
 			})
 		end,
 	},
@@ -25,6 +25,9 @@ return {
 			lspconfig.taplo.setup({
 				capabilities = capabilities,
 			})
+      lspconfig.markdown-oxide.setup({
+        capabilities = capabilities
+      })
 
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
