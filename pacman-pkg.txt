@@ -7,6 +7,11 @@ flameshot
 brightnessctl
 playerctl
 stow
+feh
+i3-wm
+i3blocks
+i3lock
+i3status
 git
 bottom
 intel-media-driver
@@ -28,4 +33,3 @@ openbsd-netcat
 dmidecode
 iptables
 libguestfs
-bat
