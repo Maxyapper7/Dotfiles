@@ -33,3 +33,7 @@ openbsd-netcat
 dmidecode
 iptables
 libguestfs
+spotify-launcher
+neovim
+picom
+ranger
