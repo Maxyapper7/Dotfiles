@@ -37,3 +37,4 @@ spotify-launcher
 neovim
 picom
 ranger
+polybar
