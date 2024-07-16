@@ -2,3 +2,5 @@ auto-cpufreq
 ttf-meslo-nerd
 sddm-git
 ulauncher
+oh-my-posh
+i3-swallow-git
