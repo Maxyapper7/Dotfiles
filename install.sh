@@ -45,3 +45,6 @@ sudo usermod -a -G libvirt $(whoami)
 
 # Set firefox as deafault browser
 xdg-settings check default-web-browser firefox.desktop
+
+# Twingate fix
+chown root:root etc/twingate

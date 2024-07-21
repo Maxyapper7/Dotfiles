@@ -14,7 +14,9 @@ bindsym XF86AudioPlay exec playerctl play-pause
 
 # Brightness Keys
 bindsym XF86MonBrightnessUp exec brightnessctl set 10%+
+bindsym XF86MonBrightnessUp+Shift exec brightnessctl set 5%+
 bindsym XF86MonBrightnessDown exec brightnessctl set 10%-
+bindsym XF86MonBrightnessDown+Shift exec brightnessctl set 5%-
 
 # Audio Controls
 set $refresh_i3status killall -SIGUSR1 i3status
