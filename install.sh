@@ -35,7 +35,7 @@ sudo rm -rf /usr/share/icons/default/index.theme
 sudo stow -t /usr/share/icons/default cursor
 
 # Start SDDM on startup
-sudo systemctl enable sddm
+sudo systemctl enable lightdm
 
 # Start Libvirtd Service
 sudo systemctl enable libvirtd.service
@@ -47,4 +47,4 @@ sudo usermod -a -G libvirt $(whoami)
 xdg-settings check default-web-browser firefox.desktop
 
 # Twingate fix
-chown root:root etc/twingate
+chown root:root /etc/twingate

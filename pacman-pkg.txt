@@ -41,3 +41,5 @@ xss-lock
 bluez
 bluez-utils
 capitaine-cursors
+lightdm
+lightdm-gtk-greeter
