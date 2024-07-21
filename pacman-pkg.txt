@@ -10,7 +10,6 @@ stow
 feh
 i3-wm
 i3blocks
-i3lock
 i3status
 git
 bottom
@@ -38,3 +37,7 @@ neovim
 picom
 ranger
 polybar
+xss-lock
+bluez
+bluez-utils
+capitaine-cursors
