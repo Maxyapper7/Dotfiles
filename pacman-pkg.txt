@@ -35,7 +35,6 @@ libguestfs
 spotify-launcher
 neovim
 picom
-ranger
 polybar
 xss-lock
 bluez
@@ -43,3 +42,4 @@ bluez-utils
 capitaine-cursors
 lightdm
 lightdm-gtk-greeter
+tmux
