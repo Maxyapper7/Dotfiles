@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Install paru
 sudo pacman -S --noconfirm --needed base-devel
@@ -12,7 +12,8 @@ rm -rf paru
 paru -S --noconfirm rate-mirrors
 
 # Find best mirrors
-rate-mirrors --allow-root --protocol https arch | grep -v '^#' | sudo tee /etc/pacman.d/mirrorlist
+# I have been having some problem with this
+#rate-mirrors --allow-root --protocol https arch | grep -v '^#' | sudo tee /etc/pacman.d/mirrorlist
 
 # Enable Parallel Downloads
 echo "[options]" | sudo tee -a /etc/pacman.conf
@@ -28,7 +29,7 @@ paru -S --noconfirm -< aur-pkg.txt
 curl -s https://binaries.twingate.com/client/linux/install.sh | sudo bash
 
 # Hyprlink dotfiles Using Stow
-stow alacritty ranger flameshot picom tmux ulauncher bottom polybar wallpapers dunst nvim zsh dunst scripts i3 xresources
+stow alacritty flameshot picom tmux ulauncher bottom polybar wallpapers dunst nvim zsh dunst scripts i3 xresources
 
 # Start Lightdm on startup
 sudo systemctl enable lightdm
