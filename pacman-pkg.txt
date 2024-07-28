@@ -1,5 +1,5 @@
 firefox
-alacritty
+kitty
 discord
 steam
 dunst
