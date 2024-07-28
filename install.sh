@@ -29,7 +29,7 @@ paru -S --noconfirm -< aur-pkg.txt
 curl -s https://binaries.twingate.com/client/linux/install.sh | sudo bash
 
 # Hyprlink dotfiles Using Stow
-stow alacritty flameshot picom tmux ulauncher bottom polybar wallpapers dunst nvim zsh dunst scripts i3 xresources
+stow alacritty flameshot picom tmux ulauncher bottom polybar wallpapers dunst nvim zsh dunst scripts i3 xresources kanta
 
 # Start Lightdm on startup
 sudo systemctl enable lightdm
@@ -45,3 +45,17 @@ xdg-settings check default-web-browser firefox.desktop
 
 # Twingate fix
 chown root:root /etc/twingate
+
+# Kanta Wierd setup
+sudo groupadd uinput
+sudo usermod -aG input $USER
+sudo usermod -aG uinput $USER
+
+sudo touch /etc/udev/rules.d/99-input.rules
+echo "KERNEL=="uinput", MODE="0660", GROUP="uinput", OPTIONS+="static_node=uinput"" | sudo tee -a /etc/udev/rules.d/99-input.rules
+sudo udevadm control --reload-rules 
+sudo udevadm trigger
+
+ls -l /dev/uinput
+
+sudo modprobe uinput

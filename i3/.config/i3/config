@@ -118,6 +118,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 exec --no-startup-id caffine
 exec --no-startup-id ulauncher
+exec --no-startup-id kanata -c ${HOME}/.config/kanata/config.kbd
 
 ### Looks ###
 
