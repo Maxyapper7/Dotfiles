@@ -5,6 +5,16 @@ eval "$(oh-my-posh init zsh --config $HOME/.config/zsh/theme.toml)"
 ### Zoxide ###
 eval "$(zoxide init zsh)"
 
+### Yazi ###
+function yy() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		builtin cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
 ### History ###
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
