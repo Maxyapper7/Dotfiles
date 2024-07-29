@@ -24,7 +24,6 @@ zinit cdreplay -q
 
 ### Aliases ###
 alias i3config='nvim ~/.config/i3/config'
-alias cd='z'
 alias ls='ls --color'
 
 ### Keybinds ###
@@ -54,7 +53,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 ### Shell integrations ###
 eval "$(fzf --zsh)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/zsh/theme.toml)"
-eval "$(zoxide init zsh)"
+eval "$(zoxide init --cmd cd zsh)"
 
 ### Yazi ###
 function yy() {
