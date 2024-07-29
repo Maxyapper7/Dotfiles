@@ -1,0 +1,6 @@
+.git
+.gitmodules
+README.md 
+install.sh
+pacman-pkg.txt
+aur-pkg.txt
