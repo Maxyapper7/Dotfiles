@@ -43,3 +43,4 @@ capitaine-cursors
 lightdm
 lightdm-gtk-greeter
 tmux
+fzf
