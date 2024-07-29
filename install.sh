@@ -29,7 +29,7 @@ paru -S --noconfirm -< aur-pkg.txt
 curl -s https://binaries.twingate.com/client/linux/install.sh | sudo bash
 
 # Hyprlink dotfiles Using Stow
-stow alacritty flameshot picom tmux ulauncher bottom polybar wallpapers dunst nvim zsh dunst scripts i3 xresources kanta
+stow . 
 
 # Start Lightdm on startup
 sudo systemctl enable lightdm
