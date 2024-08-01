@@ -1,6 +1,6 @@
 auto-cpufreq
+i3-swallow-git
+kanata
+oh-my-posh
 ttf-meslo-nerd
 ulauncher
-oh-my-posh
-kanata
-i3-swallow-git
