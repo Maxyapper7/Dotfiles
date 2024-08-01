@@ -1,6 +1,9 @@
-# i3-dotfiles
+# This is a work in progress
+My main desktop is still going to be i3 and therefor will be the more complete experence
 
-These are my (somewhat broken) dotfiles for the i3 WM. They are made for a laptop so some of the config may be a bit weird for anyone on a desktop. It uses the nord theme for the most part however I'm still working on putting the theme in everything.
+# Hyprland dotfiles
+
+These are my (somewhat broken) dotfiles for the Hyprland WM. They are made for a laptop so some of the config may be a bit weird for anyone on a desktop. It uses the nord theme for the most part however I'm still working on putting the theme in everything.
 
 ## Install
 
