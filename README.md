@@ -11,9 +11,7 @@ To install them just clone the git repository, you can rename the folder if you 
 
 ## Notes
 - I switch the caps lock key to be esc/ctrl
-- I make escape become caps lock
 
 ## Credits
 
 Type Craft - Base dotfiles
-Dreams Of Codes - ZSH and Kanata Config
