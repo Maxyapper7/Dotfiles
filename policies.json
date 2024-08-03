@@ -1,0 +1,30 @@
+{
+  "policies":{
+    "Extensions":{
+      "Install":[
+        "https://addons.mozilla.org/firefox/downloads/file/4326285/bitwarden_password_manager-2024.7.1.xpi"
+        "https://addons.mozilla.org/firefox/downloads/file/3940751/tabliss-2.6.0.xpi"
+        "https://addons.mozilla.org/firefox/downloads/file/4328681/ublock_origin-1.59.0.xpi"
+        "https://addons.mozilla.org/firefox/downloads/file/4321653/privacy_badger17-2024.7.17.xpi"
+      ]
+    },
+    "DisableTelemetry":true,
+    "ExtensionUpdate":true,
+    "DisableFirefoxStudies":false,
+    "AutofillAddressEnabled": false,
+    "AutofillCreditCardEnabled": false,
+    "OfferToSaveLogins": false,
+    "DisableFormHistory": true,
+    "EnableTrackingProtection": {
+      "Value": true,
+      "Locked": false,
+      "Cryptomining": true,
+      "Fingerprinting": true,
+      "Exceptions": []
+    },
+    "SearchEngines": {
+      "Default": "DuckDuckGo"
+      "Remove": ["Google"]
+    }
+  }
+}
