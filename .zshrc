@@ -25,6 +25,7 @@ zinit cdreplay -q
 ### Aliases ###
 alias hyprconfig='nvim ~/.config/hypr/hyprland.conf'
 alias ls='ls --color'
+alias mirrorupdt='rate-mirrors --allow-root --protocol https arch | grep -v '^#' | sudo tee /etc/pacman.d/mirrorlist'
 
 ### Keybinds ###
 bindkey -e
