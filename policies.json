@@ -20,6 +20,7 @@
       "Locked": false,
       "Cryptomining": true,
       "Fingerprinting": true,
+      "EmailTracking": true,
       "Exceptions": []
     },
     "SearchEngines": {
