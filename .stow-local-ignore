@@ -4,3 +4,5 @@ README.md
 install.sh
 pacman-pkg.txt
 aur-pkg.txt
+policies.json
+/pam
