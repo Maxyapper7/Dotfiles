@@ -9,6 +9,7 @@ discord
 dmidecode
 dnsmasq
 dunst
+eww-wayland
 firefox
 flameshot
 fzf

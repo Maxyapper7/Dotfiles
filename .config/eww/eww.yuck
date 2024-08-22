@@ -1,0 +1,16 @@
+(defwidget bar_layout []
+  (label :text "Hello, World!"))
+
+(defwindow bar
+  :monitor 0
+  :geometry (geometry
+    :x "0"
+    :y "0"
+    :width "50px"
+    :height "100%"
+    :anchor "left center")
+  :stacking "fg"
+  :windowtype "normal"
+  :exclusive "true"
+  (bar_layout))
+

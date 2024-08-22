@@ -46,6 +46,9 @@ xdg-settings check default-web-browser firefox.desktop
 # Twingate fix
 chown root:root /etc/twingate
 
+# Set gesttings cursors
+gsettings set org.gnome.desktop.interface cursor-theme 'capitaine-cursors'
+
 # Kanta Wierd setup
 sudo groupadd uinput
 sudo usermod -aG input $USER
