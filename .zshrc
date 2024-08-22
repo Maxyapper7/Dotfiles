@@ -54,14 +54,4 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 eval "$(fzf --zsh)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/zsh/theme.toml)"
 eval "$(zoxide init --cmd cd zsh)"
-eval $(dircolors ~/.dir_colors)
-
-### Yazi ###
-function yy() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
-	yazi "$@" --cwd-file="$tmp"
-	if cwd="$(cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
-		builtin cd -- "$cwd"
-	fi
-	rm -f -- "$tmp"
-}
+eval "$(dircolors ~/.dir_colors)"
