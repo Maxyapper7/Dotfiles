@@ -29,7 +29,6 @@ neofetch
 neovim
 openbsd-netcat
 openssh
-picom
 playerctl
 polkit-kde-agent
 polybar

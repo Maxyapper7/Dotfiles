@@ -1,6 +1,5 @@
 auto-cpufreq
-i3-swallow-git
-kanata
 oh-my-posh
+pam-fprint-grosshack
 ttf-meslo-nerd
 ulauncher
