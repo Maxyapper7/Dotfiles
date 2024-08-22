@@ -41,7 +41,7 @@ sudo systemctl enable libvirtd.service
 sudo usermod -a -G libvirt $(whoami)
 
 # Set firefox as deafault browser
-xdg-settings check default-web-browser firefox.desktop
+xdg-settings set default-web-browser firefox.desktop
 
 # Twingate fix
 chown root:root /etc/twingate
@@ -49,16 +49,5 @@ chown root:root /etc/twingate
 # Set gesttings cursors
 gsettings set org.gnome.desktop.interface cursor-theme 'capitaine-cursors'
 
-# Kanta Wierd setup
-sudo groupadd uinput
-sudo usermod -aG input $USER
-sudo usermod -aG uinput $USER
-
-sudo touch /etc/udev/rules.d/99-input.rules
-echo "KERNEL=="uinput", MODE="0660", GROUP="uinput", OPTIONS+="static_node=uinput"" | sudo tee -a /etc/udev/rules.d/99-input.rules
-sudo udevadm control --reload-rules 
-sudo udevadm trigger
-
-ls -l /dev/uinput
-
-sudo modprobe uinput
+# Git editor 
+git config --global core.editor "nvim"
