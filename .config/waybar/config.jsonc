@@ -8,7 +8,6 @@
   },
   "battery": {
     "states": {
-      "full": 90,
       "warning": 30,
       "critical": 15
     },

@@ -4,6 +4,7 @@ bottom
 bridge-utils
 brightnessctl
 capitaine-cursors
+cliphist
 curl
 discord
 dmidecode
@@ -30,6 +31,7 @@ openbsd-netcat
 openssh
 picom
 playerctl
+polkit-kde-agent
 polybar
 qt5-wayland
 qt6-wayland
