@@ -8,8 +8,6 @@ curl
 discord
 dmidecode
 dnsmasq
-dunst
-eww-wayland
 firefox
 flameshot
 fzf
@@ -22,8 +20,10 @@ intel-media-driver
 iptables
 kitty
 libguestfs
+libnotify
 lightdm
 lightdm-gtk-greeter
+mako
 neofetch
 neovim
 openbsd-netcat
