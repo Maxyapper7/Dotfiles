@@ -1,5 +1,9 @@
 auto-cpufreq
+catppuccin-gtk-theme-frappe
+cb
 hyprshot
+nautilus-admin-gtk4
+nautilus-open-any-terminal
 oh-my-posh
 pam-fprint-grosshack
 ttf-meslo-nerd

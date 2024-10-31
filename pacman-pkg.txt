@@ -4,7 +4,6 @@ bottom
 bridge-utils
 brightnessctl
 capitaine-cursors
-cliphist
 curl
 discord
 dmidecode
@@ -21,15 +20,14 @@ iptables
 kitty
 libguestfs
 libnotify
-lightdm
-lightdm-gtk-greeter
 mako
+nautilus
+nautilus-image-converter
 neofetch
 neovim
 openbsd-netcat
 openssh
 playerctl
-polkit-kde-agent
 polybar
 qt5-wayland
 qt6-wayland
