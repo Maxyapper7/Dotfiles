@@ -31,8 +31,8 @@ curl -s https://binaries.twingate.com/client/linux/install.sh | sudo bash
 # Hyprlink dotfiles Using Stow
 stow . 
 
-# Start Lightdm on startup
-sudo systemctl enable lightdm
+# Start SDDM on startup
+sudo systemctl enable sddm
 
 # Start Libvirtd Service
 sudo systemctl enable libvirtd.service
