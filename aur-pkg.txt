@@ -3,4 +3,3 @@ hyprshot
 oh-my-posh
 pam-fprint-grosshack
 ttf-meslo-nerd
-ulauncher
